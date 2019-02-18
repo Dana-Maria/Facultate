@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1527249398 source:c:\users\dana-maria\desktop\primmm\main.cpp
+	<iostream>
+	<vector>
+	<fstream>
+

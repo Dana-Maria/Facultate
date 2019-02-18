@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1527249398 source:c:\users\dana-maria\desktop\primmm\main.cpp
+	<iostream>
+	<vector>
+	<fstream>
+
+1527258582 source:c:\users\dana-maria\desktop\ag versiunea mea de algh\dijsktra\main.cpp
+	<iostream>
+	<vector>
+	<fstream>
+
