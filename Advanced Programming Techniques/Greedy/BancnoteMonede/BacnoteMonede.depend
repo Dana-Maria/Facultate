@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1539597764 source:c:\users\dana-maria\desktop\fmi\an2\semestrul-i\tap\exercitii\bacnotemonede\main.cpp
+	<iostream>
+	<algorithm>
+	<fstream>
+

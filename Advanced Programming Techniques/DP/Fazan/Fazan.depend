@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1543500287 source:c:\users\dana-maria\desktop\fmi\an2\semestrul-i\tehnici avansate de programare\exercitii\dp\fazan\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<algorithm>
+

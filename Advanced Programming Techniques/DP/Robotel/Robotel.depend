@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1543086552 source:c:\users\dana-maria\desktop\fmi\an2\semestrul-i\tehnici avansate de programare\laborator\robotel\main.cpp
+	<iostream>
+	<fstream>
+

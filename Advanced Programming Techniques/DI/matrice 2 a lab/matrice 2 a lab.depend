@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1542026654 source:c:\users\dana-maria\desktop\fmi\an2\semestrul-i\geometrie\matrice 2 a lab\main.cpp
+	<iostream>
+	<fstream>
+	<math.h>
+

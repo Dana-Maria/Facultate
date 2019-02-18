@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1543161340 source:c:\users\dana-maria\desktop\fmi\an2\semestrul-i\tehnici avansate de programare\exercitii\dp\palindrom\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+
