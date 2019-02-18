@@ -1,0 +1,149 @@
+/*------------------------ CATEGORIES -------------------------*/
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#categories {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-wrap: wrap;
+
+    margin-top: 20px;
+    font-family: kohoRegular;
+    color: #fff;
+}
+
+#categories h2 {
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    text-shadow: 2px 2px 2px #000;
+}
+
+#categories p {
+    font-size: 1.5em;
+}
+
+#categories>.container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-flow: column nowrap;
+
+    margin-right: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #000;
+
+    background: linear-gradient(#3d3d3d, #212121, #000000);
+}
+
+#categories>.container>a {
+    margin-top: auto;
+    text-align: center;
+    text-decoration: none;
+}
+/*
+.lessons {
+
+    list-style: none;
+
+    font-size: 1.3em;
+
+
+    /*position: absolute;
+    top: 50%;
+    transform: translateY(-50%);*/
+    /*display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.lessons li {
+    width: 100%;
+    border-bottom: 1px solid #000;
+    margin-bottom: 30px;
+}*/
+
+.content {
+    margin-top: 20px;
+}
+
+/* -------------------- LESSONS -------------------- */
+.lessons {
+    margin-top: 30px;
+
+    background: linear-gradient(#002b77, #02173d, #000d23);
+}
+
+.lessons .visible {
+    display: flex;
+    flex-direction: row;
+
+    font-family: ptSansReg;
+    color: #fff;
+    border-bottom: 2px dotted #fff;
+    margin-top: 20px;
+}
+
+.lessons .visible > h2 {
+    margin-left: 30px;
+    text-shadow: 1px 1px 1px #000;
+    cursor: pointer;
+}
+
+.lessons .visible > h2::after {
+    content: '';
+    display: block;
+    margin: auto;
+    width: 0;
+    height: 2px;
+    background: #fff;
+
+    transition: width 0.5s;
+}
+
+.lessons .visible > h2:hover::after {
+    width: 100%;
+    cursor: pointer;
+}
+
+.lessons .visible > span {
+    font-size: 2em;
+    margin-left: auto;
+    margin-right: 20px;
+
+    transition: .5s all;
+}
+
+.lessons .visible > span:hover {
+    cursor: pointer;
+    color: #000;
+}
+
+.lessons .hidden {
+    display: none;
+}
+
+.lessons .hidden > .chapters > li {
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    font-family: ptSansReg;
+    font-size: 1.3em;
+
+    padding-bottom: 15px;
+    transition: .5s all ease-in;
+}
+
+.lessons .hidden > .chapters > li:hover {
+    background: #000;
+    cursor: pointer;
+
+    transform: scale(1.2, 1.2);
+}
+
+.lessons .hidden > .chapters > li > a{
+    color: #fff;
+    text-decoration: none;
+}

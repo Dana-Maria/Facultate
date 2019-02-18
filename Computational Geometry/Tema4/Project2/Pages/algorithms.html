@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Bla bla Pro </title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/styleAlgorithms.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+
+    <script src="../Scripts/jquery.js"></script>
+    <script src="../Scripts/inputs.js"></script>
+    <script src="../Scripts/toggle.js"></script>
+    <script src="../Scripts/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+            <a class="navbar-brand" href="#" id="brand"> BLA BLA CODE |</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html"> HOME </a>
+                    </li>
+
+                    <li class="nav-item-dropdown">
+                        <a class="nav-link drop-item" href="algorithms.html"> ALGORITHMS </a>
+
+                        <div class="dropdown">
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-item"> <a href="genericAlgPage.html?Sort&Introduction">
+                                    Sorting algorithms </a></li>
+                                <li class="dropdown-item"> <a href="#"> Divide et impera </a></li>
+                                <li class="dropdown-item"> <a href="#"> Greedy </a></li>
+                                <li class="dropdown-item"> <a href="#"> Dynamic programming </a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="quiz.html"> QUIZ </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> CONTACT </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container-fluid" id="categories">
+
+        <div class="container" id="sort">
+            <h2> SORTING ALGORITHMS </h2>
+
+            <div class="content" id="sortContent">
+                <p> Sorting algorithms are essential for any programmer.
+                This is a complete guide through the
+                most important sorting algorithms. </p>
+            </div>
+
+            <a href="genericAlgPage.html?Sort&Introduction" class="stdBtn goToLesson"> SORTING ALGORITHMS </a>
+        </div>
+
+        <div class="container" id="divei">
+            <h2> DIVIDE ET IMPERA </h2>
+            <div class="content" id="diveiContent">
+                <p> Divide and Rule (aka Divide et Impera) is a widely used
+                programming technique. This is a large set of problems solved using
+                this method that can help anyone master this technique. </p>
+            </div>
+
+            <a href="#diveiLessons" class="stdBtn goToLesson"> DIVIDE ET IMPERA </a>
+        </div>
+
+        <div class="container" id="greedy">
+            <h2> GREEDY </h2>
+
+            <div class="content" id="greedyContent">
+                <p> Greedy is a very intuitive, yet commonly used, programming
+                technique. After browsing through our set of problems, this
+                method will not seem as difficult as before. </p>
+            </div>
+
+            <a href="#greedyLessons" class="stdBtn goToLesson"> GREEDY </a>
+        </div>
+    </div>
+
+    <div class="lessons">
+        <div id="sortLessons">
+            <div class="visible">
+                <h2> SORTING ALGORITHMS </h2>
+                <span> <i class="fa fa-angle-down"> </i> </span>
+            </div>
+
+            <div class="hidden">
+                <ul class="chapters">
+                    <li> <a href="genericAlgPage.html?Sort&Introduction"> Introduction </a></li>
+                    <li> <a href="genericAlgPage.html?Sort&Bubble"> Bubble Sort </a></li>
+                    <li> <a href="genericAlgPage.html?Sort&Insertion"> Insertion Sort </a></li>
+                    <li> <a href="genericAlgPage.html?Sort&Selection"> Selection Sort </a></li>
+                    <li> <a href="genericAlgPage.html?Sort&Qsort"> Quick Sort </a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="diveiLessons">
+            <div class="visible">
+                <h2> DIVIDE ET IMPERA </h2>
+                <span> <i class="fa fa-angle-down"> </i> </span>
+            </div>
+
+            <div class="hidden">
+                <ul class="chapters">
+                    <li> <a href="#"> Introduction </a></li>
+                    <li> <a href="#"> Sum  </a></li>
+                    <li> <a href="#"> Maximum and Minimum </a></li>
+                    <li> <a href="#"> Hanoi Towers </a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="greedyLessons">
+            <div class="visible">
+                <h2> GREEDY </h2>
+                <span> <i class="fa fa-angle-down"> </i> </span>
+            </div>
+
+            <div class="hidden">
+                <ul class="chapters">
+                    <li> <a href="#"> Introduction </a></li>
+                    <li> <a href="#"> The Backpack </a></li>
+                    <li> <a href="#"> Scheduling Problems </a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
