@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1525617997 source:c:\users\dana-maria\desktop\tema6_poo\main.cpp
+	<iostream>
+	<limits>
+	"claseeee.h"
+
+1525618200 c:\users\dana-maria\desktop\tema6_poo\claseeee.h
+	<iostream>
+	<string>
+
+1526998677 source:c:\users\dana-maria\desktop\fmi\fmi12\poo13\tema6_poo\main.cpp
+	<iostream>
+	<limits>
+	<sstream>
+	<stdlib.h>
+	"claseeee.h"
+
+1526999091 c:\users\dana-maria\desktop\fmi\fmi12\poo13\tema6_poo\claseeee.h
+	<iostream>
+	<string>
+	<vector>
+

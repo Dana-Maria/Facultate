@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1524576945 source:c:\users\dana-maria\desktop\tema2_poo\main.cpp
+	<iostream>
+	<string.h>
+	"Clase.h"
+
+1524577070 c:\users\dana-maria\desktop\tema2_poo\clase.h
+	<iostream>
+	<string.h>
+

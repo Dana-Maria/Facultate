@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1521382150 source:c:\users\dana-maria\desktop\problema_2_martac_dana_maria\main.cpp
+	<iostream>
+	<cmath>
+	<math.h>
+
