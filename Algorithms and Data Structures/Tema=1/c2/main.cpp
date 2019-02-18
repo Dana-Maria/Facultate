@@ -1,0 +1,35 @@
+#include <iostream>
+
+using namespace std;
+//Sortarea prin inserţie (Insertion Sort).
+int main()
+{
+    int a[100],i,j,x,n;
+    cout<<"n=";
+    cin>>n;
+    for(i=1; i<=n; i++)
+    {
+        cout<<"a["<<i<<"]=";
+        cin>>a[i];
+    }
+    cout<<"Sirul original arata de forma:"<<endl;
+    for(i=1; i<=n; i++)
+        cout<<a[i]<<" ";
+    cout<<endl;
+    for(i=2; i<=n; i++)
+    {
+        x=a[i];
+        j=i-1;
+        while(j>0 && x<a[j])
+        {
+            a[j+1]=a[j];
+            j=j-1;
+        }
+        a[j+1]=x;
+    }
+    cout<<"Sirul ordonat crescator arata de forma:"<<endl;
+    for(i=1; i<=n; i++)
+        cout<<a[i]<<" ";
+    return 0;
+
+}
